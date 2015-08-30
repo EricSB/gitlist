@@ -1,8 +1,8 @@
 #!/bin/bash
-cd ../
+cd /Applications/GITLIST-PACKAGES
 for i in `ls`
 do
 cd $i
 sudo git pull 2>&1 2>/dev/null
-cd /opt
+cd /Applications/GITLIST-PACKAGES
 done

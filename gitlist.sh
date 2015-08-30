@@ -50,7 +50,6 @@ https://github.com/urbanadventurer/WhatWeb.git
 https://github.com/mhendrickx/Lilith.git
 https://github.com/cr0hn/golismero.git
 https://github.com/mandatoryprogrammer/xssless.git
-https://github.com/themightyshiv/buildvpn.git
 https://github.com/zmap/zmap.git
 https://github.com/robertdavidgraham/masscan.git
 https://github.com/tiwaryshailesh/Masscan-For-Metasploit.git
@@ -168,7 +167,6 @@ https://github.com/nccgroup/metasploitavevasion.git
 https://github.com/pentestgeek/phishing-frenzy.git
 https://github.com/pentestgeek/phishing-frenzy-templates.git
 https://github.com/AdamLaurie/RFIDIOt.git
-https://github.com/tjomk/wfuzz.git
 https://github.com/rainkid/httrack.git
 https://github.com/junks/linkedInScraper.git
 https://bitbucket.org/al14s/rawr.git
@@ -260,10 +258,41 @@ https://github.com/z0mbiehunt3r/dns-snoopy.git
 https://github.com/GDSSecurity/SSH-Weak-DH.git
 https://github.com/trustedsec/ptf
 https://github.com/trustedsec/meterssh.git
+https://github.com/PowerShellEmpire/Empire.git
+https://github.com/spinkham/skipfish.git
+https://github.com/RetireJS/retire.js.git
+https://github.com/jhaddix/domain.git
+https://github.com/Dionach/CMSmap.git
+https://github.com/intrigueio/intrigue-core.git
+https://github.com/debasishm89/burpy.git
+https://github.com/arvinddoraiswamy/mywebappscripts.git
+https://github.com/jhaddix/domain.git
+https://github.com/jhaddix/tbhm.git
+https://github.com/NytroRST/NetRipper.git
+https://github.com/Ali-Razmjoo/OWASP-ZSC.git
+https://github.com/Smaash/snitch.git
+https://github.com/google/binnavi.git
+https://github.com/dagorim/api_wordlist.git
+https://github.com/enjoiz/XXEinjector.git
+https://github.com/yorickdewid/Wordgen.git
+https://github.com/gojhonny/CredCrack.git
+https://github.com/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script.git
+https://github.com/IFGHou/Grendel-Scan.git
+https://github.com/aircrack-ng/aircrack-ng.git
+https://github.com/twilsonb/jbrofuzz.git
+https://github.com/pentestmonkey/unix-privesc-check.git
+https://github.com/ajinabraham/YSO-Mobile-Security-Framework.git
+https://github.com/linux-can/can-utils.git
+https://github.com/RUB-NDS/WS-Attacker.git
+https://github.com/vetsin/SamlSnort.git
+https://github.com/mandatoryprogrammer/sonar.git
+https://github.com/milo2012/osintstalker.git
+https://github.com/exitnode/nmap-sqlite-output.git
+https://github.com/LionSec/wifresti.git
+https://github.com/dloss/python-pentest-tools.git
 EOF`
-cd /opt
+cd ../ 
 for i in $a
 do
-
 git clone $i
 done
